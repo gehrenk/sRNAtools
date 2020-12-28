@@ -1,0 +1,18 @@
+Package: sRNAtools
+Type: Package
+Title: What the Package Does (Title Case)
+Version: 0.1.0
+Author: Gretchen Ehrenkaufer
+Maintainer: The package maintainer <gehrenk@stanford.edu>
+Description: Some tools for manipulaton of sRNA data.
+        Make count tables and alphabet plots.
+License: MIT + file LICENSE
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 7.1.1
+Imports: 
+    dplyr,
+    purrr,
+    ShortRead
+Depends: 
+    R (>= 2.10)
