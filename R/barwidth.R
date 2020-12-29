@@ -9,6 +9,8 @@
 #' @export
 #'
 #' @examples
+#' barwidth(test.dss)
+#'
 barwidth <- function(x){
   if(ncol(ShortRead::alphabetByCycle(x)) > 40 ){
     bw <- 40

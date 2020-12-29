@@ -16,3 +16,7 @@ barwidth(x)
 Calculates witdth and length of names.arg for making an
 alphabetByCycle bargraph
 }
+\examples{
+barwidth(test.dss)
+
+}

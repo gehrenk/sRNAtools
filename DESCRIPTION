@@ -1,6 +1,6 @@
 Package: sRNAtools
 Type: Package
-Title: What the Package Does (Title Case)
+Title: Small RNA tools
 Version: 0.1.0
 Author: Gretchen Ehrenkaufer
 Maintainer: The package maintainer <gehrenk@stanford.edu>
@@ -13,6 +13,7 @@ RoxygenNote: 7.1.1
 Imports: 
     dplyr,
     purrr,
-    ShortRead
+    ShortRead,
+    magrittr
 Depends: 
     R (>= 2.10)
